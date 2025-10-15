@@ -5,7 +5,7 @@ import path, { dirname } from 'path';
 import {fileURLToPath} from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const envFile = path.resolve(__dirname, '../../.env');
+const envFile = path.resolve(__dirname, '../.env');
 dotenv.config({ path: envFile });
 
 export interface ProcessEnv {
