@@ -1,0 +1,69 @@
+# IDE/Editor folders
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/sqldialects.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# dotenv environment variable files
+.env
+.env.local
+.env.*.local
+
+# Log files
+logs
+*.log
+npm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+coverage
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Cache files
+.DS_Store
+Thumbs.db
+*.pyc
+*.pyo
+*.bak
+*.swp
+*.cache
+*.tsbuildinfo
+.npm
+.eslintcache
+.stylelintcache
+
+# Dependency directories
+node_modules/
+
+# Build output
+/dist
+/public/dist
+/public/v-dist
+/public/redist/*
+!/public/redist/.gitkeep
+
+*.vue.ts
+*.vue.script.ts
+*.vue.template.ts
+access.log

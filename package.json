@@ -1,0 +1,25 @@
+{
+  "name": "saccharose-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node --no-warnings=ExperimentalWarning --loader ts-node/esm build.ts"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.9",
+    "discord.js": "^14.23.2",
+    "dotenv": "^17.2.3",
+    "use-strict": "^1.0.1",
+    "zlib-sync": "^0.1.10"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.13.5",
+    "@types/dotenv": "^6.1.1",
+    "esbuild": "^0.25.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
